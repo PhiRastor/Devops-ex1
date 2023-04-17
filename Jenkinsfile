@@ -3,6 +3,7 @@ pipeline {
   triggers {
     pollSCM('H/2 * * * *')
   }
+  
   stages {
     stage('HelloWorld') {
       steps {
